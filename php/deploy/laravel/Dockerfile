@@ -17,6 +17,7 @@ RUN \
         php7-fpm \
         php7-pdo_mysql \
         php7-session \
+        php7-opcache \
         nginx; \
     adduser -D -g 'www' www; \
     chown -R www:www /var/lib/php7; \
